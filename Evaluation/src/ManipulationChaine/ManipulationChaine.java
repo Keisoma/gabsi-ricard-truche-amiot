@@ -16,17 +16,17 @@ public class ManipulationChaine {
 
         String nomDeFamille = chaine.substring(chaine.indexOf("D"), chaine.indexOf(";"));
 
-        System.out.println(nomDeFamille);
-        System.out.println(nomDeFamille.toUpperCase());
-        System.out.println(nomDeFamille.toLowerCase());
+        System.out.println("Nom de famille extrait : " + nomDeFamille);
+        System.out.println("Nom de famille en majuscules : " + nomDeFamille.toUpperCase());
+        System.out.println("Nom de famille en minuscules : " + nomDeFamille.toLowerCase());
 
         String split[] = chaine.split(";");
         for (String s : split) {
-            System.out.println(s);
+            System.out.println("Donnée : " + s);
         }
 
         split[2]=split[2].replace(" ", "");
-        System.out.println(split[2]);
+        System.out.println("Salaire convertissable en double : " + split[2]);
 
         Salarie s1 = new Salarie(split[0], split[1], Double.parseDouble(split[2]));
         System.out.println(s1.toString());
