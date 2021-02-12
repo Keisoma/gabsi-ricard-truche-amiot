@@ -49,6 +49,15 @@ public class TheatrePro {
         return recetteTotal;
     }
 
+    public double getRecetteGlobal(){
+       double total = 0;
+
+        for(Spectacle spectacle : spectacles)
+            total += spectacle.getTarifUnitaire() * spectacle.getCapaciteMax();
+
+        return total;
+    }
+
     public Spectacle getSpectacle(String nomSpectacle){
         for(Spectacle s : spectacles)
             if(s.getNom().equals(nomSpectacle))

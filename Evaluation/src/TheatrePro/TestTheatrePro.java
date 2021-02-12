@@ -16,7 +16,11 @@ public class TestTheatrePro {
         theatre.inscrire(1,"Danse");
         theatre.inscrire(1,"Improv");
 
-        System.out.println(theatre.getRecetteTotal());
+
+        System.out.println("La recette global est : " + theatre.getRecetteGlobal());
+
+        System.out.println("La recette totale est : " + theatre.getRecetteTotal());
+
 
     }
 
