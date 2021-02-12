@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/gabsi-ricard-truche-amiot.iml" filepath="$PROJECT_DIR$/.idea/gabsi-ricard-truche-amiot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projet/untitled.iml" filepath="$PROJECT_DIR$/projet/untitled.iml" />
     </modules>
   </component>
 </project>
