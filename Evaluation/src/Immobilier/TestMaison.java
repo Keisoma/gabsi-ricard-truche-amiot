@@ -33,11 +33,11 @@ public class TestMaison {
         maison.ajouterPiece(null);
         maison.ajouterPiece(salon2);
 
-        System.out.println(maison.superficieTotal());
+        System.out.println("Superficie total : " + maison.superficieTotal());
 
-        System.out.println(maison.superficiePiece(chambre1));
+        System.out.println("Superficie total des chambres : " + maison.superficiePiece(chambre1));
 
-        System.out.println(maison.nombrePieces(chambre1));
+        System.out.println("Nombre de chambres : " + maison.nombrePieces(chambre1));
 
     }
 }

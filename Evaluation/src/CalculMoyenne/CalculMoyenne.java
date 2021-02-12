@@ -5,7 +5,7 @@ public class CalculMoyenne {
     public CalculMoyenne() {
     }
 
-    private static double[] tableau = new double[0];
+    private double[] tableau = new double[0];
 
     public void addTableau(double add) {
 
@@ -23,11 +23,12 @@ public class CalculMoyenne {
     public double calcul(){
 
         double total = 0;
+        double resultat = 0;
 
         for(int i = 0; i < tableau.length; i++)
             total += tableau[i];
 
-        double resultat = total/tableau.length;
+        resultat = total/tableau.length;
 
         return resultat;
     }
